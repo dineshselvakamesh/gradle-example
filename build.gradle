@@ -17,12 +17,12 @@ allprojects {
 }
 
 artifactory {
-    contextUrl = "${artifactory_contextUrl}"   //The base Artifactory URL if not overridden by the publisher/resolver
+    contextUrl = "https://hts2.jfrog.io/artifactory"   //The base Artifactory URL if not overridden by the publisher/resolver
     publish {
         repository {
             repoKey = 'vdsk-gradle-release-local'
-            username = "${artifactory_user}"
-            password = "${artifactory_password}"
+            username = "dineshvdsk"
+            password = "cmVmdGtuOjAxOjE3MDc4ODQ4MzI6YlQ1T2pDc0w0cjAxNFZTSWJHdDZCU1NkOGQ2"
             maven = true
             
         }
@@ -30,8 +30,8 @@ artifactory {
     resolve {
         repository {
             repoKey = 'vdsk-gradle-dev'
-            username = "${artifactory_user}"
-            password = "${artifactory_password}"
+            username = "dineshvdsk"
+            password = "cmVmdGtuOjAxOjE3MDc4ODQ4MzI6YlQ1T2pDc0w0cjAxNFZTSWJHdDZCU1NkOGQ2"
             maven = true
             
         }
