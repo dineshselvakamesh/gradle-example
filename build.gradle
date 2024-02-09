@@ -1,8 +1,7 @@
 buildscript {
     repositories {
         jcenter()
-        flatDir {
-        dirs 'lib'
+        
     }
     dependencies {
         //Check for the latest version here: http://plugins.gradle.org/plugin/com.jfrog.artifactory
@@ -18,7 +17,7 @@ artifactory {
     contextUrl = "${artifactory_contextUrl}"   //The base Artifactory URL if not overridden by the publisher/resolver
     publish {
         repository {
-            repoKey = 'vdsk-gradle-dev-local'
+            repoKey = 'vdsk-gradle-release-local'
             username = "${artifactory_user}"
             password = "${artifactory_password}"
             maven = true
