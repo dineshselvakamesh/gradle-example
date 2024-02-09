@@ -1,3 +1,3 @@
-artifactory_user=admin
-artifactory_password=cmVmdGtuOjAxOjE3Mzg4Nzc1OTQ6VnlJVHpqNGhyNml0ZHJ0M1oxWjdNSmdURndl
-artifactory_contextUrl=http://10.160.0.102:8081/artifactory
+artifactory_user=dineshvdsk
+artifactory_password=cmVmdGtuOjAxOjE3MDc4ODQ4MzI6YlQ1T2pDc0w0cjAxNFZTSWJHdDZCU1NkOGQ2
+artifactory_contextUrl=https://hts2.jfrog.io/artifactory
